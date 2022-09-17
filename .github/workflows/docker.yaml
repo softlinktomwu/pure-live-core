@@ -49,5 +49,5 @@ jobs:
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/386
           push: true
           tags: |
-            iyear/pure-live:latest
-            iyear/pure-live:${{ steps.tag.outputs.VER }}
+            junlinwu/pure-live:latest
+            junlinwu/pure-live:${{ steps.tag.outputs.VER }}
